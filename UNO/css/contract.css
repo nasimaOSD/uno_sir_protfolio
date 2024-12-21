@@ -1,0 +1,119 @@
+@import url(main.css);
+/* .project{
+    width: 1141px;
+    height: 600px;
+    background-color: var(--primaryDiv);padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+/*  
+    
+ 
+   
+  
+   
+} */
+/* .project img{
+    width: 275px;
+    height: 200px;
+    margin: 10px 20px;
+    gap: 0px;
+} 
+
+/* Contact */
+
+.contact_head{
+  
+    position: absolute;
+    left: 48%;
+    top: 3450px;
+    text-decoration: underline #D9D9D9;
+    color: var(--buttonColor);
+        
+    
+    
+}
+i{
+    display: inline;
+    padding-right: 20px;
+    
+
+}
+.contact{
+    width: inherit;
+    height: 800px;
+    background-color: var(--secondDiv);
+    padding: 0 50px;
+    color: var(--buttonColor);
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+.info{
+    width: 350px;
+    height: 250px;
+}
+
+.phone, .inbox,.tele{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* From */
+.form{
+  width: 657px;
+  height: 380px;
+  
+}
+
+input ,textarea{
+ display: block;
+ background-color: var(--primaryDiv);
+ width: 655px;
+ height: 40px;
+ margin: 20px;
+ border-radius: 20px;
+}
+
+input::placeholder,textarea::placeholder{
+    color: var(--buttonColor);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px;
+    /* letter-spacing: 4px; */
+    outline: none;
+    border: none ;
+  
+
+}
+input:focus, textarea:focus{
+    background-color: var(--buttonColor);
+    padding: 20px;
+}
+
+textarea{
+    height: 148px;
+}
+
+input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin: auto;
+    color: var(--buttonColor);
+}
+input[type="submit"]:hover{
+    background-color: rgb(214, 129, 129);
+    color: aqua;
+}
+
+/* fot */
+footer{
+    background-color:#170550 ; text-align: center; color: white;font-size: 22px; padding: 20px;
+}

@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  Universal code*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", serif;
+    box-sizing: border-box;
+}
+/* color section */
+:root{
+    --primaryDiv: #a425b2;
+    --secondDiv:#420b4d;
+    --buttonColor:#FFFFFF;
+    --hoverColor:#F46C24;
+}
+
+/*  parrent Sction */
+section{
+    width: 100%;
+    background-color: #2E5077;
+
+
+}
+/* content section */
+.main{
+    width: 1141px;
+    margin: auto;
+
+}
+/* nav sction */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* main nav */
+.nav{
+    width: inherit;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondDiv);
+    padding: 0px 50px;
+
+
+}
+/* nav imag */
+.nav img{
+    width: 70px;
+    height: 70px;
+
+}
+/* nav list */
+
+.manu li{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+    color: var(--buttonColor);
+
+
+}
+.manu li a{
+    color: var(--buttonColor);
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+
+}
+.main li a:hover{
+  color: #F46C24;
+
+}
+/* Nav button */
+.nav .button{
+    width: 150px;
+    height: 30px;
+    background-color: var(--buttonColor);
+    border-radius: 20px;
+    margin-top: -10px;
+
+
+
+}
+.nav .button a{
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+
+}
+
+.button:hover{
+    background-color: var(--hoverColor);
+    color: var(--buttonColor);
+
+}
+
+.button a:hover{
+    color: var(--buttonColor);
+}
+
+/* End Nav section */
+/* Hero section//Benner */
+/* Hero text section */
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 608px;
+    background-color: var(--primaryDiv);
+    padding: 0px 50px;
+
+}
+
+/* hero section photo div */
+.hero_section .photo{
+    width: 550px;
+    height: 535px;
+}
+/* hero section content */
+.hero_section .content{
+ width: 600px;
+ height: 278px;
+
+}
+.hero_section h4{
+    color: var(--hoverColor);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+}
+.hero_section h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--buttonColor);
+
+
+}
+
+.hero_section h3{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: var(--buttonColor);
+}
+
+.hero_section p{
+    color:var(--buttonColor);
+}
+
+#btn{
+    display: block;
+   width: 150px;
+   height:32px ;
+   text-align: center;
+   margin-top: 10px;
+    background-color: var(--hoverColor);
+    color: var(--buttonColor);
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: var(--buttonColor);
+    color: var(--hoverColor);
+}
+
+/* About Secton */
+.about_head {
+    position: absolute;
+    left: 48%;
+    top: 720px;
+    text-decoration: underline #D9D9D9;
+    color: var(--buttonColor);
+
+
+}
+.about{
+    width: inherit;
+    height: 800px;
+    padding: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--secondDiv);
+}   
+.about_photo img{
+    width: 360px;
+    height: 410px;
+    border-radius: 15px;
+}
+.photo img{
+    height: 300px;
+    width: 300px;
+   margin-left: 130px;
+   margin-top: 120px;
+}
+
+.about_content{
+    width: 600px;
+    height: 376px;
+    color: var(--buttonColor);
+}
+.about_content a{
+    width: 177px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--buttonColor);
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 9px;
+    color:#461959 ;
+}
+.about_content a:hover{
+    color: var(--hoverColor);
+}
+/* Servies section */
+.about_head1 {
+    position: absolute;
+    left: 48%;
+    top: 1500px;
+    text-decoration: underline #D9D9D9;
+    color: var(--buttonColor);
+}
+.services{
+background-color: var(--primaryDiv);
+padding:0px 50px;
+width: inherit;
+height: 600px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+.all_service{
+width: 367px;
+height: 399px;
+border-radius: 15px;
+background-color: var(--buttonColor);
+text-align: center;
+margin: 10px;
+padding: 20px;
+}
+.all_service img{
+   padding-top: 10px;
+}
+
+.all_service h1{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.all_service p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* My skills */
+label{
+    display: block;
+    line-height: 90px;
+}
+.about_head2 {
+    position: absolute;
+    left: 48%;
+    top: 2150px;
+    text-decoration: underline #D9D9D9;
+    color: var(--buttonColor);
+
+
+}
+.skils{
+    width: inherit;
+    height: 700px;
+    padding: 0px 50px;
+    background-color: var(--secondDiv);
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 50px;
+
+}
+.text{
+    width: 150px;
+     color: var(--buttonColor);
+}
+.bar{
+    width: 900px;
+
+}
+/*Gellerry seciton photo*/
+
+.project{
+   height: 616px; 
+   background-color:#461959;
+}
+.project1{
+    display: flex;
+}
+.project1 img{
+    height: 240px;
+    width: 240px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.project2{
+    display: flex;
+}
+.project2 img{
+    height: 240px;
+    width: 240px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+.percent{
+    width: 150px;
+    color: var(--buttonColor);
+}
+
+.progress-bar {
+    width: 90%;
+    background-color: #433668; 
+    border-radius: 10px; 
+    height: 15px;
+
+}
+
+
+.progress {
+    height: 100%; 
+    background-color: var(--hoverColor); 
+    width: 0;
+    transition: width 0.5s ease; 
+}
